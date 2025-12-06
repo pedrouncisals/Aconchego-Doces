@@ -185,7 +185,7 @@ ul {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 140px 0 var(--espacamento-lg);
+    padding: 140px 0 var(--espacamento-md);
     background: linear-gradient(135deg, var(--cor-rosa-nude) 0%, var(--cor-bege) 100%);
     overflow: hidden;
 }
@@ -225,19 +225,30 @@ h1.hero-title {
 .hero-subtitle {
     font-size: 1.15rem;
     color: var(--cor-cinza);
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
     line-height: 1.75;
     opacity: 0;
     animation: fadeInUp 1s ease 0.6s forwards;
     font-weight: 400;
 }
 
+/* ============================================
+   HERO CTAS SECTION (Botões após a imagem)
+   ============================================ */
+
+.hero-ctas-section {
+    background: linear-gradient(135deg, var(--cor-rosa-nude) 0%, var(--cor-bege) 100%);
+    padding: var(--espacamento-lg) 0;
+    text-align: center;
+}
+
 .hero-ctas {
     display: flex;
-    gap: 1rem;
+    gap: 1.25rem;
     flex-wrap: wrap;
-    margin-top: 0;
-    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .btn-whatsapp {
@@ -1315,16 +1326,20 @@ section {
     .hero-subtitle {
         font-size: 0.95rem;
         line-height: 1.65;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
         max-width: 28ch;
         margin-left: auto;
         margin-right: auto;
     }
     
+    .hero-ctas-section {
+        padding: var(--espacamento-md) 0;
+    }
+    
     .hero-ctas {
         justify-content: center;
-        gap: 0.875rem;
-        margin-bottom: 0;
+        gap: 1rem;
+        flex-direction: column;
     }
     
     .hero-image {
@@ -1507,15 +1522,18 @@ section {
     .hero-subtitle {
         font-size: 0.95rem;
         line-height: 1.65;
-        margin-bottom: 1.75rem;
+        margin-bottom: 0;
         max-width: 28ch;
+    }
+    
+    .hero-ctas-section {
+        padding: var(--espacamento-md) 0;
     }
     
     .hero-ctas {
         flex-direction: column;
-        gap: 0.875rem;
+        gap: 1rem;
         width: 100%;
-        margin-bottom: var(--espacamento-md);
     }
     
     .btn-whatsapp,
