@@ -56,9 +56,6 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Compressão
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Encoding = "gzip, br"
+# Nota: O Netlify já faz compressão automática (gzip/brotli)
+# Não é necessário definir Content-Encoding manualmente
 
