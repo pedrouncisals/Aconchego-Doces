@@ -1315,17 +1315,17 @@ section {
     }
     
     .hero-subtitle {
-        font-size: 1rem;
-        line-height: 1.65;
-        margin-bottom: 1.75rem;
-        max-width: 32ch;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        max-width: 28ch;
         margin-left: auto;
         margin-right: auto;
     }
     
     .hero-ctas {
         justify-content: center;
-        gap: 1rem;
+        gap: 0.875rem;
     }
     
     .hero-image {
@@ -1436,8 +1436,14 @@ section {
     .btn-whatsapp,
     .btn-secondary {
         width: 100%;
+        max-width: 280px;
         justify-content: center;
         min-height: 48px;
+    }
+    
+    .btn-secondary {
+        border-width: 2px;
+        font-weight: 600;
     }
     
     .btn-cta-inline {
@@ -1487,7 +1493,7 @@ section {
         font-size: 0.95rem;
         line-height: 1.6;
         margin-bottom: 1.5rem;
-        max-width: 30ch;
+        max-width: 28ch;
     }
     
     .hero-ctas {
