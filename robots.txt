@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aconchegodoces.com.br/sitemap.xml
+
+# Bloquear arquivos desnecessários
+Disallow: /imagens/.git/
+Disallow: /*.json$
+
+# Permitir todas as imagens
+Allow: /imagens/
+
+# Crawl-delay (opcional)
+Crawl-delay: 1
+

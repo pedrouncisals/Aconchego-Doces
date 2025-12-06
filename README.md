@@ -56,9 +56,11 @@ O site está pronto para deploy em plataformas como:
 
 ## 📄 Licença
 
-Todos os direitos reservados - Aconchego Doces © 2024
+Todos os direitos reservados - Aconchego Doces © 2025
 
 ---
 
 Desenvolvido com ❤️ para criar momentos doces
+
+PEDRO VASCONCELOS.
 

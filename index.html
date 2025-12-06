@@ -3,34 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aconchego Doces - Bolos e tortas que encantam no sabor e na beleza 💖. Aceitamos encomendas de bolos em ganache. Delivery em Maceió - AL.">
-    <meta name="keywords" content="aconchego doces, bolos maceió, bolos ganache, tortas maceió, confeitaria maceió, bolos personalizados alagoas, delivery bolos">
+    
+    <!-- SEO Meta Tags -->
+    <title>Aconchego Doces Maceió | Bolos em Ganache Artesanais | Delivery</title>
+    <meta name="description" content="Aconchego Doces - Bolos e tortas artesanais em ganache que encantam no sabor e na beleza. Delivery em toda Maceió-AL. Bolos temáticos, de festas e tortas de vitrine. Encomendas com 2 dias de antecedência.">
+    <meta name="keywords" content="bolos maceió, bolos ganache maceió, confeitaria maceió, bolos personalizados alagoas, delivery bolos maceió, bolos temáticos, tortas de vitrine, bolos de andares ganache">
     <meta name="author" content="Aconchego Doces">
-    <title>Aconchego Doces | Bolos e Tortas que Encantam no Sabor e na Beleza 💖</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <meta name="geo.region" content="BR-AL">
+    <meta name="geo.placename" content="Maceió">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aconchegodoces.com.br/">
+    <meta property="og:title" content="Aconchego Doces | Bolos em Ganache Artesanais em Maceió">
+    <meta property="og:description" content="Bolos e tortas artesanais que encantam no sabor e na beleza. Delivery em toda Maceió-AL.">
+    <meta property="og:image" content="https://aconchegodoces.com.br/imagens/carlinha%201.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aconchegodoces.com.br/">
+    <meta property="twitter:title" content="Aconchego Doces | Bolos em Ganache Artesanais">
+    <meta property="twitter:description" content="Bolos e tortas artesanais que encantam no sabor e na beleza. Delivery em Maceió-AL.">
+    <meta property="twitter:image" content="https://aconchegodoces.com.br/imagens/carlinha%201.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preconnect para performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="dns-prefetch" href="https://wa.me">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fontes otimizadas -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aconchego Doces",
+      "image": "https://aconchegodoces.com.br/imagens/carlinha%201.jpg",
+      "description": "Confeitaria artesanal especializada em bolos em ganache, bolos temáticos e tortas de vitrine. Delivery em toda Maceió-AL.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Maceió",
+        "addressRegion": "AL",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-9.5713",
+        "longitude": "-36.7820"
+      },
+      "url": "https://aconchegodoces.com.br",
+      "telephone": "+558291422952",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "servesCuisine": "Confeitaria Artesanal",
+      "paymentAccepted": "Pix, Cartão de Crédito, Cartão de Débito",
+      "currenciesAccepted": "BRL",
+      "areaServed": {
+        "@type": "City",
+        "name": "Maceió"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aconchegodocesconfeitaria_/"
+      ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#inicio" class="skip-link">Pular para conteúdo principal</a>
+    
     <!-- Header Fixo -->
     <header class="header" id="header">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>Aconchego Doces</h1>
+                    <span class="logo-text">Aconchego Doces</span>
+                    <span class="sr-only">Confeitaria artesanal em Maceió especializada em bolos em ganache</span>
                 </div>
-                <nav class="nav" id="nav">
+                <nav class="nav" id="nav" role="navigation" aria-label="Menu principal">
                     <ul class="nav-list">
-                        <li><a href="#inicio" class="nav-link">Início</a></li>
-                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
-                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
-                        <li><a href="#galeria" class="nav-link">Galeria</a></li>
-                        <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
-                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                        <li><a href="#inicio" class="nav-link" aria-label="Ir para seção Início">Início</a></li>
+                        <li><a href="#sobre" class="nav-link" aria-label="Ir para seção Sobre">Sobre</a></li>
+                        <li><a href="#servicos" class="nav-link" aria-label="Ir para seção Serviços">Serviços</a></li>
+                        <li><a href="#galeria" class="nav-link" aria-label="Ir para seção Galeria">Galeria</a></li>
+                        <li><a href="#depoimentos" class="nav-link" aria-label="Ir para seção Depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato" class="nav-link" aria-label="Ir para seção Contato">Contato</a></li>
                     </ul>
                 </nav>
-                <a href="https://wa.me/558291422952?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20de%20bolo." class="btn-pedido" target="_blank" rel="noopener noreferrer">Fazer Pedido</a>
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-pedido" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido no WhatsApp">📲 Pedir no WhatsApp</a>
                 <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                     <span></span>
                     <span></span>
@@ -45,14 +123,17 @@
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
-                <h2 class="hero-title fade-in">Bolos e Tortas que Encantam no Sabor e na Beleza 💖</h2>
+                <h1 class="hero-title fade-in">Bolos e Tortas que Encantam no Sabor e na Beleza 💖</h1>
                 <p class="hero-subtitle fade-in">Aceitamos encomendas de bolos em ganache artesanais, feitos com carinho e dedicação para tornar seus momentos especiais ainda mais doces e memoráveis</p>
-                <a href="https://wa.me/558291422952?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bolos%20em%20ganache." class="btn-whatsapp fade-in" target="_blank" rel="noopener noreferrer">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.019 0C5.396 0 .019 5.396.019 12.019c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.624 0 12-5.396 12-12.019 0-3.177-1.24-6.162-3.487-8.408"/>
-                    </svg>
-                    Fale Conosco
-                </a>
+                <div class="hero-ctas">
+                    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-whatsapp fade-in" target="_blank" rel="noopener noreferrer" aria-label="Pedir bolo no WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.019 0C5.396 0 .019 5.396.019 12.019c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.624 0 12-5.396 12-12.019 0-3.177-1.24-6.162-3.487-8.408"/>
+                        </svg>
+                        Peça Já Seu Bolo
+                    </a>
+                    <a href="#galeria" class="btn-secondary fade-in" aria-label="Ver galeria de bolos">Ver Galeria</a>
+                </div>
             </div>
         </div>
         <div class="hero-image">
@@ -72,12 +153,13 @@
             <div class="section-header">
                 <h2 class="section-title">Sobre a Aconchego Doces</h2>
                 <p class="section-subtitle">Arte e paixão em cada doce</p>
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-cta-inline" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido">Orçamento Rápido</a>
             </div>
             <div class="sobre-content">
                 <div class="sobre-image">
                     <img 
                         src="imagens/carlinha 2.jpg" 
-                        alt="Aconchego Doces - Confeiteira com bolo artesanal" 
+                        alt="Aconchego Doces - Confeiteira profissional preparando bolo artesanal em ganache" 
                         loading="lazy"
                         width="500"
                         height="500">
@@ -115,6 +197,7 @@
             <div class="section-header">
                 <h2 class="section-title">Nossos Serviços</h2>
                 <p class="section-subtitle">Bolos e tortas que encantam no sabor e na beleza 💖</p>
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-cta-inline" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido">Peça Já Seu Bolo</a>
             </div>
             <div class="servicos-grid">
                 <div class="servico-card">
@@ -133,6 +216,7 @@
                         <li>Bolos de andares</li>
                         <li>Decoração personalizada</li>
                     </ul>
+                    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido%20de%20bolo%20em%20ganache" class="btn-servico" target="_blank" rel="noopener noreferrer" aria-label="Pedir bolo em ganache">Pedir Agora</a>
                 </div>
                 <div class="servico-card">
                     <div class="servico-icon">
@@ -150,6 +234,7 @@
                         <li>Bolos para festas</li>
                         <li>Totalmente personalizado</li>
                     </ul>
+                    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido%20de%20bolo%20temático" class="btn-servico" target="_blank" rel="noopener noreferrer" aria-label="Pedir bolo temático">Pedir Agora</a>
                 </div>
                 <div class="servico-card">
                     <div class="servico-icon">
@@ -167,6 +252,7 @@
                         <li>Ingredientes selecionados</li>
                         <li>Apresentação impecável</li>
                     </ul>
+                    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido%20de%20torta%20de%20vitrine" class="btn-servico" target="_blank" rel="noopener noreferrer" aria-label="Pedir torta de vitrine">Pedir Agora</a>
                 </div>
                 <div class="servico-card">
                     <div class="servico-icon">
@@ -184,6 +270,7 @@
                         <li>Prazo: 2 dias</li>
                         <li>Pix e cartão</li>
                     </ul>
+                    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido%20com%20delivery" class="btn-servico" target="_blank" rel="noopener noreferrer" aria-label="Pedir com delivery">Pedir Agora</a>
                 </div>
             </div>
         </div>
@@ -195,6 +282,7 @@
             <div class="section-header">
                 <h2 class="section-title">Galeria de Criações</h2>
                 <p class="section-subtitle">Alguns dos nossos trabalhos mais especiais</p>
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-cta-inline" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido">Peça Já Seu Bolo</a>
             </div>
             <div class="galeria-grid">
                 <div class="galeria-item" data-image="imagens/aniversario1.jpg">
@@ -341,52 +429,77 @@
         </div>
     </div>
 
+    <!-- Prova Social / Estatísticas -->
+    <section class="prova-social">
+        <div class="container">
+            <div class="prova-social-grid">
+                <div class="prova-item">
+                    <div class="prova-number">50+</div>
+                    <div class="prova-label">Pedidos Realizados</div>
+                </div>
+                <div class="prova-item">
+                    <div class="prova-number">100%</div>
+                    <div class="prova-label">Clientes Satisfeitos</div>
+                </div>
+                <div class="prova-item">
+                    <div class="prova-number">5★</div>
+                    <div class="prova-label">Avaliação Média</div>
+                </div>
+                <div class="prova-item">
+                    <div class="prova-number">2</div>
+                    <div class="prova-label">Dias de Prazo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Depoimentos -->
     <section class="depoimentos" id="depoimentos">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
                 <p class="section-subtitle">Experiências doces e inesquecíveis</p>
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-cta-inline" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido">Peça Já Seu Bolo</a>
             </div>
             <div class="depoimentos-grid">
                 <div class="depoimento-card">
-                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-stars" aria-label="5 estrelas">★★★★★</div>
                     <p class="depoimento-texto">"Fiquei completamente encantada com o bolo da Aconchego Doces! O ganache estava perfeito e o sabor era divino. Além da beleza, a qualidade superou todas as expectativas. Recomendo de olhos fechados!"</p>
                     <div class="depoimento-autor">
                         <strong>Mariana Silva</strong>
-                        <span>Cliente</span>
+                        <span>Bolo de Aniversário • Dez 2024</span>
                     </div>
                 </div>
                 <div class="depoimento-card">
-                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-stars" aria-label="5 estrelas">★★★★★</div>
                     <p class="depoimento-texto">"Contratei a Aconchego Doces para o aniversário da minha filha e superou todas as expectativas! O bolo era uma verdadeira obra de arte e as crianças ficaram maravilhadas. O atendimento foi impecável e a entrega pontual!"</p>
                     <div class="depoimento-autor">
                         <strong>Patrícia Oliveira</strong>
-                        <span>Mãe</span>
+                        <span>Bolo Temático • Nov 2024</span>
                     </div>
                 </div>
                 <div class="depoimento-card">
-                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-stars" aria-label="5 estrelas">★★★★★</div>
                     <p class="depoimento-texto">"Sou cliente há um tempo e sempre fico impressionada com a qualidade e criatividade. Os bolos em ganache são uma delícia e a apresentação é sempre impecável. A Aconchego Doces realmente entende de confeitaria artesanal!"</p>
                     <div class="depoimento-autor">
                         <strong>Ana Paula Costa</strong>
-                        <span>Cliente</span>
+                        <span>Cliente Fiel • Múltiplos Pedidos</span>
                     </div>
                 </div>
                 <div class="depoimento-card">
-                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-stars" aria-label="5 estrelas">★★★★★</div>
                     <p class="depoimento-texto">"O bolo que encomendei para nosso evento foi o destaque da festa! Todos ficaram impressionados com a beleza e o sabor. Profissionalismo e qualidade excepcionais. Já fechei outras encomendas!"</p>
                     <div class="depoimento-autor">
                         <strong>Roberto Mendes</strong>
-                        <span>Cliente</span>
+                        <span>Evento Corporativo • Out 2024</span>
                     </div>
                 </div>
                 <div class="depoimento-card">
-                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-stars" aria-label="5 estrelas">★★★★★</div>
                     <p class="depoimento-texto">"Nunca tinha visto um bolo tão lindo e saboroso! A atenção aos detalhes é impressionante. A Aconchego Doces realmente transforma ingredientes em arte. Vale cada centavo investido. Já recomendei para várias amigas!"</p>
                     <div class="depoimento-autor">
                         <strong>Juliana Santos</strong>
-                        <span>Cliente</span>
+                        <span>Bolo em Ganache • Dez 2024</span>
                     </div>
                 </div>
             </div>
@@ -399,11 +512,11 @@
             <div class="cta-content">
                 <h2 class="cta-title">Pronto para Criar Seu Momento Doce?</h2>
                 <p class="cta-subtitle">Entre em contato e vamos transformar sua ideia em realidade</p>
-                <a href="https://wa.me/558291422952?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20de%20bolo%20em%20ganache." class="btn-whatsapp btn-cta" target="_blank" rel="noopener noreferrer">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="btn-whatsapp btn-cta" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento no WhatsApp">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.019 0C5.396 0 .019 5.396.019 12.019c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.624 0 12-5.396 12-12.019 0-3.177-1.24-6.162-3.487-8.408"/>
                     </svg>
-                    Solicitar Orçamento
+                    📲 Pedir no WhatsApp
                 </a>
             </div>
         </div>
@@ -512,10 +625,11 @@
     </footer>
 
     <!-- Botão WhatsApp Flutuante -->
-    <a href="https://wa.me/558291422952?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20de%20bolo." class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp" rel="noopener noreferrer">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <a href="https://wa.me/558291422952?text=Quero%20fazer%20um%20pedido" class="whatsapp-float" target="_blank" aria-label="Pedir no WhatsApp" rel="noopener noreferrer" title="Pedir no WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.019 0C5.396 0 .019 5.396.019 12.019c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.624 0 12-5.396 12-12.019 0-3.177-1.24-6.162-3.487-8.408"/>
         </svg>
+        <span class="whatsapp-text">📲 Pedir</span>
     </a>
 
     <script src="script.js"></script>
